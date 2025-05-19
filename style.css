@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #f9f5f1;
+  color: #2c2c2c;
+}
+
+.container {
+  max-width: 1000px;
+  height:auto;
+  margin: 40px auto;
+  background-color: #fdf7f1;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+
+.info h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.info h2 {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #a08668;
+}
+
+.section-title {
+  margin-top: 40px;
+  font-size: 26px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: auto;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.education, .projects , .train {
+  flex: 1;
+}
+
+.education h3, .projects h3 ,.train h3{
+  color: #b49e88;
+  font-size: 18px;
+}
+h4{
+    text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li::before {
+  content: "✦ ";
+  color: #d4a373;
+}
+
+.contact {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #555;
+
+}
+.contact p{
+    font-style: bold;
+}
